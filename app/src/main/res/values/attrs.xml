@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="guaText" format="string" />
+    <attr name="guaTextColor" format="color" />
+    <attr name="guaTextSize" format="dimension" />
+
+
+    <declare-styleable name="GuaGuaKa">
+        <attr name="guaText" />
+        <attr name="guaTextColor" />
+        <attr name="guaTextSize" />
+    </declare-styleable>
+
+</resources>
