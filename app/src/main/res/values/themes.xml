@@ -14,5 +14,9 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <declare-styleable name="ScaleRulerView">
+        <attr name="color_select_paint" format="color" />
+        <attr name="color_normal_line" format="color" />
+    </declare-styleable>
 
 </resources>

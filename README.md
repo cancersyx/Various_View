@@ -1,5 +1,6 @@
 # Various_View
-本仓库整理各种自定义View，有的是自己写的，有的是平日练习学习的。
+整理工作以来的各种自定义View，有的是自己写的，有的是平日练习学习的。<br>
+
 - 1.身高水平选择PickerView <br>
 ![这是图片](/pic/pic_height_select_view.png "PickerView")
 
@@ -11,9 +12,13 @@
 - 4.音频跳动View <br>
 ![这是图片](/pic/pic_volume_view.png "VolumeView") <br>
 
-![这是图片](/gif/gif_view_volume.mp4 "VolumeView")
+![这是图片](/gif/gif_view_volume.mp4 "VolumeView")<br>
 
 
-- 5.刮刮卡View
-![这是图片](/pic/pic_guaguale_view.png "GuaGuaView")
+- 5.刮刮卡View <br>
+![这是图片](/pic/pic_guaguale_view.png "GuaGuaView")<br>
+
+- 6.体重选择View <br>
+![这是图片](/pic/pic_weight_ruler_view.png "RulerView")<br>
+
 
