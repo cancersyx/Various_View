@@ -21,4 +21,7 @@
 - 6.体重选择View <br>
 ![这是图片](/pic/pic_weight_ruler_view.png "RulerView")<br>
 
+- 7.简易日出日落view<br>
+![这是图片](/pic/pic_sunrise_sunset_view.png "SunriseArcView")<br>
+
 
