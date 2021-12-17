@@ -4,6 +4,19 @@
     <attr name="guaTextColor" format="color" />
     <attr name="guaTextSize" format="dimension" />
 
+    <declare-styleable name="ScaleRulerView">
+        <attr name="color_select_paint" format="color" />
+        <attr name="color_normal_line" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RankStar">
+        <attr name="starCount" format="integer"/>
+        <attr name="foregroundSrc" format="reference"/>
+        <attr name="backgroundSrc" format="reference"/>
+        <attr name="starSpace" format="dimension"/>
+        <attr name="stepSize" format="float" />
+        <attr name="rating" format="float" />
+    </declare-styleable>
 
     <declare-styleable name="GuaGuaKa">
         <attr name="guaText" />

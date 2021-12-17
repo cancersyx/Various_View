@@ -76,6 +76,35 @@
             android:layout_gravity="center_horizontal"
             android:background="#CCFF99" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#E3E3E3" />
+
+        <com.zsf.variousview.RankStarView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:backgroundSrc="@drawable/icon_star_normal"
+            app:foregroundSrc="@drawable/icon_star_selected"
+            app:rating="1.5"
+            app:starCount="5"
+            app:starSpace="10dp"
+            app:stepSize="0.5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#E3E3E3" />
+
+        <com.zsf.variousview.ArcView
+            android:id="@+id/humidity_arc_view"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"/>
 
     </LinearLayout>
 
