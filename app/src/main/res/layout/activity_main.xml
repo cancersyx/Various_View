@@ -102,9 +102,20 @@
             android:id="@+id/humidity_arc_view"
             android:layout_width="130dp"
             android:layout_height="80dp"
-            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:layout_centerVertical="true"
-            android:layout_marginRight="20dp"/>
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#E3E3E3" />
+
+        <com.zsf.variousview.SpiderView
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
 
     </LinearLayout>
 
