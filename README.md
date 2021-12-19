@@ -12,8 +12,11 @@
 - 4.音频跳动View <br>
 ![这是图片](/pic/pic_volume_view.png "VolumeView") <br>
 
-![这是图片](/gif/gif_view_volume.mp4 "VolumeView")<br>
+<video id="video" controls="" preload="none" poster="">
+<source id="mp4" src="/gif/gif_view_volume.mp4" type="video/mp4">
+</video>
 
+<br>
 
 - 5.刮刮卡View <br>
 ![这是图片](/pic/pic_guaguale_view.png "GuaGuaView")<br>
