@@ -21,8 +21,7 @@ public class ArcView extends View {
     public static final int STROKE_WIDTH = 26;
     private Paint mPaint;
     private Paint mBgArcPaint;
-    private Paint mEndLeftPaint;
-    private Paint mEndRightPaint;
+
     private Paint mTestPaint;
 
     private int mHeight;
@@ -51,22 +50,14 @@ public class ArcView extends View {
         mPaint.setStrokeWidth(STROKE_WIDTH);
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setColor(COLOR);
+        mPaint.setStrokeCap(Paint.Cap.ROUND);
 
         mBgArcPaint = new Paint();
         mBgArcPaint.setAntiAlias(true);
         mBgArcPaint.setStrokeWidth(STROKE_WIDTH);
         mBgArcPaint.setStyle(Paint.Style.STROKE);
         mBgArcPaint.setColor(getResources().getColor(R.color.color_home_bg_area));
-
-        mEndLeftPaint = new Paint();
-        mEndLeftPaint.setStrokeWidth(1);
-        mEndLeftPaint.setStyle(Paint.Style.FILL);
-        mEndLeftPaint.setColor(COLOR);
-
-        mEndRightPaint = new Paint();
-        mEndRightPaint.setStrokeWidth(1);
-        mEndRightPaint.setStyle(Paint.Style.FILL);
-        mEndRightPaint.setColor(getResources().getColor(R.color.color_home_bg_area));
+        mBgArcPaint.setStrokeCap(Paint.Cap.ROUND);
 
         mTestPaint = new Paint();
         mTestPaint.setStrokeWidth(1);
@@ -122,17 +113,11 @@ public class ArcView extends View {
         RectF rect = new RectF(STROKE_WIDTH / 2, STROKE_WIDTH / 2, mWidth - STROKE_WIDTH / 2, mHeight * 2 - 50);
         canvas.drawArc(rect, 180, 180, false, mBgArcPaint);
         canvas.drawArc(rect, 180, mSweepValue, false, mPaint);
-        RectF leftRectF = new RectF(1, mHeight - 34, STROKE_WIDTH + 1, mHeight - 3);
-        canvas.drawArc(leftRectF, 0, 180, true, mEndLeftPaint);
-        RectF rightRectF = new RectF(mWidth - STROKE_WIDTH, mHeight - 34, mWidth, mHeight - 3);
-        canvas.drawArc(rightRectF, 0, 180, true, mEndRightPaint);
+
     }
 
 
     public void setValue(float value) {
         this.mSweepValue = value;
-        if (value >= 180){
-            mEndRightPaint.setColor(COLOR);
-        }
     }
 }
