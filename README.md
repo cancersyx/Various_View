@@ -27,10 +27,13 @@
 - 7.简易日出日落view<br>
 ![这是图片](/pic/pic_sunrise_sunset_view.png "SunriseArcView")<br>
 
-- 8.弧度View<br>
+- 8.自定义简易评分控件
+![这是图片](/pic/pic_rank_star_view.png "RankStarView")<br>
+
+- 9.弧度View<br>
 ![这是图片](/pic/pic_arc_view.png "ArcView")<br>
 
-- 9.蜘蛛网自定义View(游戏技能View)<br>
+- 10.蜘蛛网自定义View(游戏技能View)<br>
 ![这是图片](/pic/pic_spider_view.png "SpiderView")<br>
 
 

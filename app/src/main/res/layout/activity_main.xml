@@ -85,6 +85,7 @@
         <com.zsf.variousview.RankStarView
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="20dp"
             app:backgroundSrc="@drawable/icon_star_normal"
             app:foregroundSrc="@drawable/icon_star_selected"
             app:rating="1.5"
